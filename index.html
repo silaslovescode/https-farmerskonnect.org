@@ -3,38 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmers' Konnect</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
-    <link rel="manifest" href="manifest.json">
-    <script src="../kit.fontawesome.com/332a0bbd7c.js" crossorigin="anonymous"></script>
-    <meta name="description" content="Farmers' Konnect - Bridging the gap between Farmers and Investors as well as Farmers to Arable land">
-    <meta name="keywords" content="farmers, agriculture, opportunities, farming community">
-    <meta name="author" content="Musunza Festus">
-    <meta property="og:title" content="Farmers' Konnect">
-    <meta property="og:description" content="Bridging the gap between Farmers and Investors as well as Farmers to Arable land">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.farmerskonnect.org">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@FarmersKonnect">
-    <meta name="twitter:title" content="Farmers' Konnect">
-    <meta name="twitter:description" content="Bridging the gap between Farmers and Investors as well as Farmers to Arable land">
-    <meta name="twitter:image" content="/logo.png">
-    <link rel="apple-touch-icon" href="logo.png">
+    <title>Farmer's Konnect AI</title>
     <style>
-        .main-container { width: 100%; }
-        .container1 {position: relative;width: 100%;height: 600px; /* Adjust the height as needed */display: flex;justify-content: center;align-items: center;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ffd700; /* Golden yellow background for header */
+            color: #333; /* Dark text color */
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container1 {
+            position: relative;
+            width: 100%;
+            height: 600px; /* Adjust the height as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+             /* background-color:#ffd700;  semi-transparent black */
+            z-index: 2; /* ensures it's above the iframe */
+            pointer-events: none; /* allow clicks to pass through */
+        }
+        iframe {
+            width: 500px; /* Adjust the width to better fit the chat content */
+            height: 400px; /* Adjust the height to better fit the chat content */
+            border: none;
+            z-index: 1; /* ensures it's below the overlay */
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .project-title {
+            color: #007bff;
+        }
+        .project-description {
+            margin-top: 1em;
+        }
+        .client-section {
+            background-color: #ffd700; /* Golden yellow background for client-side sections */
+            padding: 1em;
+            margin-top: 1em;
+        }
+        .client-section h2 {
+            color: #333; /* Dark text color */
+        }
+        .client-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .client-section ul li {
+            margin-bottom: 0.5em;
+        }
+        .client-section ul li a {
+            color: #333; /* Dark text color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .client-section ul li a:hover {
+            color: #fff; /* White text color on hover */
+            background-color: #333; /* Dark background color on hover */
+            padding: 0.3em;
+            border-radius: 5px;
+        }
     </style>
-    <script defer="defer" src="static/js/main.2cdd839b.js"></script>
-    <link href="static/css/main.52a8d8e9.css" rel="stylesheet">
 </head>
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-        <div class="container1">
+    <header>
+        <h1>FARMERSKONNECT-AI</h1>
+    </header>
+    <div class="container1">
+        <iframe src="https://farmerskonnect.org/"></iframe><br>
         <iframe src="https://www.chatpdf.com/share/tW2duISpoBamqSddd72eS"></iframe>
-        
         <div class="overlay">    
         </div>
     </div>
+
 </body>
 </html>
